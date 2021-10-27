@@ -1,0 +1,63 @@
+/*
+	Sass Application Entry Point
+	Link all your sass dependencies in the right order
+
+	Example:
+	@import "other-sass-file.scss";
+	@import "../../<other module>/Sass/other-sass-file.scss";
+*/ 
+
+.updateinfov2-info-card {
+    @extend .info-card;
+}
+
+.updateinfov2-info-card-content {
+    @extend .info-card-content;
+    color: $sc-color-secondary;
+    font-weight: bold;
+}
+
+.profile-updateadditionalinformation{
+	@extend .box-column-bordered
+}
+
+.profile-updateadditionalinformation-form{
+	margin-top: $sc-margin-lv4;
+}
+
+.profile-updateadditionalinformation-subtitle{
+	margin-bottom: $sc-margin-lv2;
+	font-weight: $sc-font-weight-semibold;
+}
+
+.profile-updateadditionalinformation-button-back {
+	@extend .button-back
+}
+
+.profile-updateadditionalinformation-button-back-icon{
+	@extend .button-back-icon;
+}
+
+.profile-updateadditionalinformation-controls-group{
+	margin-top: $sc-margin-lv2;
+}
+
+.profile-updateadditionalinformation-controls-submit{
+	margin-top: $sc-margin-lv6;
+}
+
+.profile-updateadditionalinformation-divider{
+	margin-top: $sc-margin-lv4;
+	margin-bottom: $sc-margin-lv4;
+}
+
+.profile-updateadditionalinformation-submit{
+	@extend .button-primary;
+	@extend .button-medium;
+}
+
+.profile-updateadditionalinformation-reset{
+	@extend .button-secondary;
+	@extend .button-medium;
+	@extend .button-positioning-stack2next;
+}
