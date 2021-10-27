@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "UpdateInfoV2.config": {
+            "group": "extensions",
+            "subtab": "UpdateInfoV2_subtab",
+            "type": "string",
+            "title": "UpdateInfoV2_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "name": "UpdateInfoV2",
+    "fantasyName": "Update Additional Info v2",
+    "vendor": "DSC",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": "",
+        "SCS": ""
+    },
+    "version": "1.0.0",
+    "description": "Update Additional Info v2",
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/UpdateInfoV2.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/UpdateInfoV2/Configuration/UpdateInfoV2.json"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/UpdateInfoV2/Templates/dsc_updateinfov2_updateinfov2.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/UpdateInfoV2/Templates/dsc_updateinfov2_updateinfov2.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/UpdateInfoV2/Templates/dsc_updateinfov2_updateinfov2.tpl"
+                ]
+            }
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/UpdateInfoV2/Sass/_updateinfov2-updateinfov2.scss",
+            "myaccount": "Modules/UpdateInfoV2/Sass/_updateinfov2-updateinfov2.scss",
+            "checkout": "Modules/UpdateInfoV2/Sass/_updateinfov2-updateinfov2.scss"
+        },
+        "files": [
+            "Modules/UpdateInfoV2/Sass/_updateinfov2-updateinfov2.scss"
+        ]
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+            "myaccount": "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+            "checkout": "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+                    "Modules/UpdateInfoV2/JavaScript/UpdateInfoV2.View.js",
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.Model.js",
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.SS2Model.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+                    "Modules/UpdateInfoV2/JavaScript/UpdateInfoV2.View.js",
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.Model.js",
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.SS2Model.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+                    "Modules/UpdateInfoV2/JavaScript/UpdateInfoV2.View.js",
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.Model.js",
+                    "Modules/UpdateInfoV2/JavaScript/DSC.UpdateInfoV2.UpdateInfoV2.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/UpdateInfoV2/SuiteScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+        "files": [
+            "Modules/UpdateInfoV2/SuiteScript/DSC.UpdateInfoV2.UpdateInfoV2.js",
+            "Modules/UpdateInfoV2/SuiteScript/UpdateInfoV2.ServiceController.js"
+        ]
+    },
+    "suitescript2": {
+        "files": [
+            "Modules/UpdateInfoV2/SuiteScript2/UpdateInfoV2.Service.ss"
+        ]
+    }
+}
