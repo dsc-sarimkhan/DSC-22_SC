@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "SetSoInfo.config": {
+            "group": "extensions",
+            "subtab": "SetSoInfo_subtab",
+            "type": "string",
+            "title": "SetSoInfo_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}
