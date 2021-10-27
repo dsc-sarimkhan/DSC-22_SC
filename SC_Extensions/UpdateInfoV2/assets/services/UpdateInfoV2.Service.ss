@@ -4,7 +4,7 @@ function service(request, response)
 	'use strict';
 	try 
 	{
-		require('DSC.UpdateInfoV2.UpdateInfoV2.ServiceController').handle(request, response);
+		require('DSC.UpdateInfoV2.UpdateInfoV2.ServiceController').handle(request, response);//check
 	} 
 	catch(ex)
 	{
