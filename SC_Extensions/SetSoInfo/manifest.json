@@ -1,0 +1,92 @@
+{
+    "name": "SetSoInfo",
+    "fantasyName": "SetSoInfo",
+    "vendor": "DSC",
+    "version": "0.0.1",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": "",
+        "SCS": ""
+    },
+    "description": "Set Sales Order Information",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/SetSoInfo.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/SetSoInfo/Configuration/SetSoInfo.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "checkout": "Modules/SetSoInfo/Sass/_setsoinfo-setsoinfo.scss",
+            "shopping": "Modules/SetSoInfo/Sass/_setsoinfo-setsoinfo.scss"
+        },
+        "files": [
+            "Modules/SetSoInfo/Sass/_setsoinfo-setsoinfo.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "checkout": {
+                "files": [
+                    "Modules/SetSoInfo/Templates/dsc_setsoinfo_setsoinfo.tpl"
+                ]
+            },
+            "shopping": {
+                "files": [
+                    "Modules/SetSoInfo/Templates/dsc_setsoinfo_setsoinfo.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "checkout": "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.js",
+            "shopping": "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.js"
+        },
+        "application": {
+            "checkout": {
+                "files": [
+                    "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.js",
+                    "Modules/SetSoInfo/JavaScript/SetSoInfo.View.js",
+                    "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.Model.js",
+                    "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.SS2Model.js"
+                ]
+            },
+            "shopping": {
+                "files": [
+                    "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.js",
+                    "Modules/SetSoInfo/JavaScript/SetSoInfo.View.js",
+                    "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.Model.js",
+                    "Modules/SetSoInfo/JavaScript/DSC.SetSoInfo.SetSoInfo.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/SetSoInfo/SuiteScript/DSC.SetSoInfo.SetSoInfo.js",
+        "files": [
+            "Modules/SetSoInfo/SuiteScript/DSC.SetSoInfo.SetSoInfo.js",
+            "Modules/SetSoInfo/SuiteScript/SetSoInfo.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\SetSoInfo",
+    "suitescript2": {
+        "files": [
+            "Modules/SetSoInfo/SuiteScript2/SetSoInfo.Service.ss"
+        ]
+    }
+}
